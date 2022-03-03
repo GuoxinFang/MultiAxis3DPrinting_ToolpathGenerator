@@ -1,0 +1,30 @@
+﻿  Reading Qt configuration (C:/Qt/5.12.11/msvc2017_64/bin/qmake)
+  Moc'ing MainWindow.h...
+  MainWindow.cpp
+  main.cpp
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(163,35): warning C4100: 'bVertexNormalShading': unreferenced formal parameter (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,63): warning C4100: 'even_type': unreferenced formal parameter (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,39): warning C4100: 'event': unreferenced formal parameter (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\QMeshLib\PolygenMesh.h(21,2): warning C4091: 'typedef ': ignored on left of 'mesh_type' when no variable is declared (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(163,35): warning C4100: 'bVertexNormalShading': unreferenced formal parameter (compiling source file main.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,63): warning C4100: 'even_type': unreferenced formal parameter (compiling source file main.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,39): warning C4100: 'event': unreferenced formal parameter (compiling source file main.cpp)
+F:\2022 project\toolpathGeneration\QMeshLib\PolygenMesh.h(21,2): warning C4091: 'typedef ': ignored on left of 'mesh_type' when no variable is declared (compiling source file main.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKCameraTool.h(9,62): warning C4091: 'typedef ': ignored on left of 'camera_type' when no variable is declared (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\InteractiveTool.h(7,60): warning C4091: 'typedef ': ignored on left of 'select_type' when no variable is declared (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKGeometry.h(12,1): warning C4005: 'DEGREE_TO_ROTATE': macro redefinition (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.h(18): message : see previous definition of 'DEGREE_TO_ROTATE' (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKGeometry.h(13,1): warning C4005: 'ROTATE_TO_DEGREE': macro redefinition (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.h(19): message : see previous definition of 'ROTATE_TO_DEGREE' (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\GLKLib\GLKGeometry.h(493,28): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file MainWindow.cpp)
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.cpp(227,8): warning C4189: 'p': local variable is initialized but not referenced
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.cpp(222,15): warning C4189: 'c': local variable is initialized but not referenced
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.cpp(268,8): warning C4189: 'p': local variable is initialized but not referenced
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.cpp(262,15): warning C4189: 'c': local variable is initialized but not referenced
+F:\2022 project\toolpathGeneration\ShapeLab\MainWindow.cpp(317,46): warning C4100: 'event': unreferenced formal parameter
+  moc_MainWindow.cpp
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(163,35): warning C4100: 'bVertexNormalShading': unreferenced formal parameter
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,63): warning C4100: 'even_type': unreferenced formal parameter
+F:\2022 project\toolpathGeneration\GLKLib\GLKLib.h(214,39): warning C4100: 'event': unreferenced formal parameter
+F:\2022 project\toolpathGeneration\QMeshLib\PolygenMesh.h(21,2): warning C4091: 'typedef ': ignored on left of 'mesh_type' when no variable is declared
+  ShapeLab.vcxproj -> F:\2022 project\toolpathGeneration\ShapeLab\debug\ShapeLab.exe
