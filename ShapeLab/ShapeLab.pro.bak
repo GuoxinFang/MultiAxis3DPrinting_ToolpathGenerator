@@ -15,7 +15,7 @@ UI_DIR += ./GeneratedFiles
 INCLUDEPATH += $$PWD/../ThirdPartyDependence/eigen3
 INCLUDEPATH += $$PWD/../ThirdPartyDependence
 
-HEADERS  += *.h
+HEADERS  +=*.h
 
 #ui_MainWindow not included.
 SOURCES += *.cpp

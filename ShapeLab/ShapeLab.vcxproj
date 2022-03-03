@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4E59A190-7D6D-3EDD-AFB4-058DC81623FB}</ProjectGuid>
+    <ProjectGuid>{7DB27B48-C018-3FD8-B3D6-337D43F838FB}</ProjectGuid>
     <RootNamespace>ShapeLab</RootNamespace>
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
@@ -78,7 +78,7 @@
   </ImportGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;F:/2022 project/toolpathGeneration/ShapeLab/../ThirdPartyDependence/eigen3;..\ThirdPartyDependence;..\ThirdPartyDependence\glut;..\QMeshLib;..\GLKLib;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;F:/2022 project/toolpathGeneration/sourceCode/ShapeLab/../ThirdPartyDependence/eigen3;..\ThirdPartyDependence;..\ThirdPartyDependence\glut;..\QMeshLib;..\GLKLib;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>release\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -96,11 +96,10 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <WarningLevel>Level3</WarningLevel>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\glut32.lib";"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\OpenGL32.lib";"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\GlU32.lib";QMeshLib.lib;GLKLib.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut;F:\2022 project\toolpathGeneration\QMeshLib\release;F:\2022 project\toolpathGeneration\GLKLib\release;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\glut32.lib";"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\OpenGL32.lib";"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\GlU32.lib";QMeshLib.lib;GLKLib.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut;F:\2022 project\toolpathGeneration\sourceCode\QMeshLib\release;F:\2022 project\toolpathGeneration\sourceCode\GLKLib\release;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -108,7 +107,7 @@
       <LinkIncremental>false</LinkIncremental>
       <OutputFile>$(OutDir)\ShapeLab.exe</OutputFile>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Link>
     <Midl>
@@ -121,7 +120,7 @@
     </ResourceCompile>
     <QtMoc>
       <CompilerFlavor>msvc</CompilerFlavor>
-      <Include>F:/2022 project/toolpathGeneration/ShapeLab/$(Configuration)/moc_predefs.h</Include>
+      <Include>F:/2022 project/toolpathGeneration/sourceCode/ShapeLab/$(Configuration)/moc_predefs.h</Include>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
       <DynamicSource>output</DynamicSource>
       <QtMocDir>$(Configuration)</QtMocDir>
@@ -142,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;F:/2022 project/toolpathGeneration/ShapeLab/../ThirdPartyDependence/eigen3;..\ThirdPartyDependence;..\ThirdPartyDependence\glut;..\QMeshLib;..\GLKLib;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;F:/2022 project/toolpathGeneration/sourceCode/ShapeLab/../ThirdPartyDependence/eigen3;..\ThirdPartyDependence;..\ThirdPartyDependence\glut;..\QMeshLib;..\GLKLib;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>debug\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
@@ -160,15 +159,15 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\glut32.lib";"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\OpenGL32.lib";"F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut\GlU32.lib";QMeshLib.lib;GLKLib.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>F:\2022 project\toolpathGeneration\ThirdPartyDependence\glut;F:\2022 project\toolpathGeneration\QMeshLib\debug;F:\2022 project\toolpathGeneration\GLKLib\debug;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\glut32.lib";"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\OpenGL32.lib";"F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut\GlU32.lib";QMeshLib.lib;GLKLib.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\2022 project\toolpathGeneration\sourceCode\ThirdPartyDependence\glut;F:\2022 project\toolpathGeneration\sourceCode\QMeshLib\debug;F:\2022 project\toolpathGeneration\sourceCode\GLKLib\debug;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
       <OutputFile>$(OutDir)\ShapeLab.exe</OutputFile>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Link>
     <Midl>
@@ -181,7 +180,7 @@
     </ResourceCompile>
     <QtMoc>
       <CompilerFlavor>msvc</CompilerFlavor>
-      <Include>F:/2022 project/toolpathGeneration/ShapeLab/$(Configuration)/moc_predefs.h</Include>
+      <Include>F:/2022 project/toolpathGeneration/sourceCode/ShapeLab/$(Configuration)/moc_predefs.h</Include>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
       <DynamicSource>output</DynamicSource>
       <QtMocDir>$(Configuration)</QtMocDir>
@@ -270,6 +269,8 @@
     <None Include="resource\selectNode.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="alphanum.hpp" />
+    <ClInclude Include="dirent.h" />
     <ClInclude Include="heatMethod.h" />
     <ClInclude Include="SurfaceGuidanceField.h" />
     <ClInclude Include="toolpathgeneration.h" />

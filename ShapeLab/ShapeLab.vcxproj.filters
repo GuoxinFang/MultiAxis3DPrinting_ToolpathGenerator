@@ -53,10 +53,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SurfaceGuidanceField.cpp">
+    <ClCompile Include="heatMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="heatMethod.cpp">
+    <ClCompile Include="SurfaceGuidanceField.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="toolpathgeneration.cpp">
@@ -183,10 +183,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SurfaceGuidanceField.h">
+    <ClInclude Include="alphanum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="heatMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceGuidanceField.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="toolpathgeneration.h">
