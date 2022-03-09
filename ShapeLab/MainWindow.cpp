@@ -511,15 +511,17 @@ void MainWindow::runToolpathGeneration()
 
     Eigen::Vector3d dir;  dir << 1.0, 0.0, 0.0;
 
+    /* Begin surface guidance field computing - boundary contour */
+    heatMethod* heatMethodOperator = new heatMethod(patch);
+    heatMethodOperator->meshRefinement();
+    heatMethodOperator->compBoundaryHeatKernel();
+
+
     /* Begin surface guidance field computing - zigzag */
     SurfaceGuidanceField* surfaceGuidFieldComp = new SurfaceGuidanceField();
     surfaceGuidFieldComp->inputDir = dir;
     surfaceGuidFieldComp->runIsoLayerVectorFielCompute(patch);
     surfaceGuidFieldComp->scalarFieldCompute_isoSurface(patch);
-
-    /* Begin surface guidance field computing - boundary contour */
-    heatMethod* heatMethodOperator = new heatMethod(patch);
-    heatMethodOperator->compBoundaryHeatKernel();
 
     /* Toolpath Generation */
     PolygenMesh* toolpathMesh = new PolygenMesh(Tool_PATH); toolpathMesh->setModelName("toolpath");
