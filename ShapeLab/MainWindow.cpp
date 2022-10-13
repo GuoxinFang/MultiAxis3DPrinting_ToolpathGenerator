@@ -513,7 +513,7 @@ void MainWindow::runToolpathGeneration()
 
     /* Begin surface guidance field computing - boundary contour */
     heatMethod* heatMethodOperator = new heatMethod(patch);
-    heatMethodOperator->meshRefinement();
+    for(int i=0;i<3;i++) heatMethodOperator->meshRefinement();
     heatMethodOperator->compBoundaryHeatKernel();
 
 
